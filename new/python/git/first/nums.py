@@ -1,4 +1,6 @@
 def plus(a, b):
-    return a+b
+    texts = 'text'
+    return (a+b), texts
+
 if __name__ == '__main__':
-    print(2, 3)
+    print(plus(2, 3))
